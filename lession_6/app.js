@@ -59,18 +59,18 @@ const data = [
     gender: 'M'
   },
 ]
-const csvWriter = createCsvWriter({
-  path: 'test.csv',
-  header: [
-    {id: 'name', title: 'NAME'},
-    {id: 'surname', title: 'LastName'},
-    {id: 'age', title: 'AGE'},
-    {id: 'gender', title: 'G'}
-  ]
-})
-
-csvWriter.writeRecords(data)
-  .then(() => {
-    console.log('...Done');
-  })
+// const csvWriter = createCsvWriter({
+//   path: 'test.csv',
+//   header: [
+//     {id: 'name', title: 'NAME'},
+//     {id: 'surname', title: 'LastName'},
+//     {id: 'age', title: 'AGE'},
+//     {id: 'gender', title: 'G'}
+//   ]
+// })
+//
+// csvWriter.writeRecords(data)
+//   .then(() => {
+//     console.log('...Done');
+//   })
 
