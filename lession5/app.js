@@ -9,7 +9,7 @@ const path = require('path');
 //
 // const text = fs.readFileSync('t2.txt', 'utf8')
 // console.log(text)
-// console.log('==================')
+console.log('==================')
 
 fs.readdir('./one', (err, data) => {
    data.forEach(file => {
